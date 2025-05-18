@@ -1,0 +1,19 @@
+{
+  "name": "dbs101_backend-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.14.1",
+    "dbs101_backend-server": "file:",
+    "dotenv": "^16.3.1",
+    "hono": "^4.7.10",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
